@@ -6,7 +6,6 @@ export default () => {
 
   useEffect(() => {
     mount(ref.current);
-    console.log('Foi')
   });
 
   return <div ref={ref} />
